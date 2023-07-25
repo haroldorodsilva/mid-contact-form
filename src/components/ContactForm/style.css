@@ -1,0 +1,22 @@
+form {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+form input {
+    padding: 3px;
+    line-height: 25px;
+}
+
+.error {
+    color: red;
+}
